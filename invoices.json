@@ -1,0 +1,36 @@
+[
+  {
+    "customer": "BogCo",
+    "performances": [
+      {
+        "playID": "hamlet",
+        "audience": 55
+      },
+      {
+        "playID": "as-like",
+        "audience": 35
+      },
+      {
+        "playID": "othello",
+        "audience": 40
+      }
+    ]
+  },
+  {
+    "customer": "Qiming",
+    "performances": [
+      {
+        "playID": "hamlet",
+        "audience": 63
+      },
+      {
+        "playID": "as-like",
+        "audience": 54
+      },
+      {
+        "playID": "othello",
+        "audience": 32
+      }
+    ]
+  }
+]
