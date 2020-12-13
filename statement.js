@@ -56,13 +56,13 @@ function playFor(aPerfomance) {
   return plays[aPerfomance.playID];
 }
 
-function volumeCreditsFor(perf) {
-  let volumeCredits = 0;
-  volumeCredits += Math.max(perf.audience - 30, 0);
-  if ("comedy" === playFor(perf).type)
-    volumeCredits += Math.floor(perf.audience / 5);
+function volumeCreditsFor(aPerfomance) {
+  let result = 0;
+  result += Math.max(aPerfomance.audience - 30, 0);
+  if ("comedy" === playFor(aPerfomance).type)
+    result += Math.floor(aPerfomance.audience / 5);
 
-  return volumeCredits;
+  return result;
 }
 
 //输出
